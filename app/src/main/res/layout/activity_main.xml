@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:background="#333333"
+    android:gravity="top|center"
+    tools:context="com.example.ak.internship.MainActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kidzone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/cuseditsearchdesign"
+        android:drawableRight="@drawable/search"
+        android:ems="10"
+        android:foregroundGravity="top|center"
+        android:hint="Type here !!!!"
+        android:inputType="textPersonName"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:background="@drawable/buttonstateselector"
+        android:text="Search"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/kidzone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Kids zone"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp" />
+
+</RelativeLayout>
